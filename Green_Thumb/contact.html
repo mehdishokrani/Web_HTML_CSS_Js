@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="css/inuit.css">
+<link rel="stylesheet" href="css/fluid-grid16-1100px.css">
+<link rel="stylesheet" href="css/eve-styles.css">
+<link rel="stylesheet" href="css/formalize.css">
+<link rel="shortcut icon" href="icon.jpg">
+<link rel="icon" type="image/x-icon" href="./img/logo.png">
+<link rel="apple-touch-icon-precomposed" href="img/icon.jpg">
+<script src="js/jquery164min.js"></script>
+</head>
+<body>
+<div class="wrapper"> <a href="index.html" id="logo"><img src="img/logo.png" alt=" Green Thumb Logo">
+  <h1 class="accessibility">Green Thumb Landscaping got its roots in one of the greenest, most picturesque landscapes in the world</h1>
+</a>
+<div class="social"> <a target="_blank" href="https://www.facebook.com/"><img src="img/facebook.png" width="20" height="20" alt="Facebook Logo"></a> <a target="_blank" href="https://www.twitter.com/"><img src="img/twitter.png" width="20" height="20" alt="Twitter Logo"></a> <a target="_blank" href="https://www.linkedin.com/"><img src="img/linkedin.png" width="20" height="20" alt="LinkedIn Logo"></a> </div>
+<ul id="nav" class="main">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Services.html">Services</a></li>
+    <li><a href="Test.html">Estimate</a></li>
+    <li><a href="Testimonial.html">Testimonial</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</div>
+<div class="clear"></div>
+
+<div class="wrapper">
+  <div class="grids top">
+    <div class="grid-6 grid">
+      <h2>Address</h2>
+      <div>
+        <p class="bottom"> John Shokrani<br><br>
+          22 1139 AVE NW<br>
+          EDMONTON AB T5M 2N0<br>
+          Canada<br>
+          <br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d18958.798397379906!2d-113.59367396358908!3d53.56044867131488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sT5M%202N0!5e0!3m2!1sen!2sca!4v1682642732331!5m2!1sen!2sca" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+          <br>
+          Phone: 780-302-0635<br>
+          Email: info@greenthumblanscaping.com </p>
+      </div>
+      <div class="green bottom">
+        <h3>Don’t worry about it.</h3>
+        <p>At every stage of every project we take on, we believe communication is key.
+          So whether you have a question about our services or you’d like a quote, send us a note to discuss the details. It’s always no-obligation, so <span style="font-weight: bold;">don’t worry about it!</span> </p>
+      </div>
+    </div>
+    <div class="grid-10 grid">
+      <h2>Contact Us</h2>
+      <form  action="mailto:mehdishokrani213@gmail.com" method="post" enctype="text/plain">
+        <table class="form">
+          <tr>
+            <th> <label for="name"> Name: </label>
+            </th>
+            <td><input class="input_full" type="text" id="name" name="name" required="required" placeholder="Mehdi"></td>
+          </tr>
+          <tr>
+            <th> <label for="email"> Email: </label>
+            </th>
+            <td><input class="input_full" type="email" id="email" name="email" required="required" placeholder="mehdishokrani1@gmail.com"></td>
+          </tr>
+          <tr>
+            <th> <label for="tel"> Phone: </label>
+            </th>
+            <td><input class="input_full" type="tel" id="tel" name="tel" required="required" placeholder="5879681234"></td>
+          </tr>
+          <tr>
+            <th> <label for="url"> URL: </label>
+            </th>
+            <td><input class="input_full" type="text" id="url" name="url" placeholder="http://"></td>
+          </tr>
+          <tr>
+            <th> <label for="subject"> Subject </label>
+            </th>
+            <td><select class="input_full" id="subject" name="subject">
+                <option value="">Choose Your subject...</option>
+                <option value="1k_2k">Question about Services</option>
+                <option value="2k_3k">Ask about Project</option>
+                <option value="3k_4k">Feedback for our Services</option>
+                <option value="4k_5k">Other issues</option>
+              </select></td>
+          </tr>
+          <tr>
+            <th> <label for="priority_normal"> Priority </label>
+            </th>
+            <td><input type="radio" name="priority" id="priority_urgent" value="Urgent">
+              <label for="priority_urgent"> Urgent </label>
+              &nbsp; &nbsp;
+              <input type="radio" name="priority" id="priority_normal" value="Normal" checked="checked">
+              <label for="priority_normal"> Normal </label>
+              &nbsp; &nbsp;
+              <input type="radio" name="priority" id="priority_low" value="Low">
+              <label for="priority_low"> Low </label></td>
+          </tr>
+          <tr>
+            <th> <label for="description"> Your<br>
+                message </label>
+            </th>
+            <td><textarea id="description" name="description" rows="8" required="required" placeholder="Please write your message here."></textarea></td>
+          </tr>
+          <tr>
+            <th> <label for="cc"> <abbr>CC</abbr> </label>
+            </th>
+            <td><input type="checkbox" id="cc" name="cc" value="1">
+              <label for="cc"> Send me a copy of this email to a given Emial address </label></td>
+          </tr>
+        </table>
+        <label for="">Have you red terms and conditions?</label>
+        <input type="checkbox"><br><br>
+        <p>
+          <input type="submit" value="Send" class="float_left">
+          <input type="reset" value="Clear" class="float_right">
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="wrapper">
+    <div id="footer">
+      <div class="grids">
+        <div class="grid-5 grid text-center">
+          <p>&copy; 2023 by <a  href="index.html">Green Thumb</a></p>
+        </div>
+        <div class="grid-6 grid text-center">
+          <p>Mehdi Shokrani Kooshki</p>
+        </div>
+        <div class="grid-5 grid text-center">
+          <p>Contact Us <a href="contact.html">here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

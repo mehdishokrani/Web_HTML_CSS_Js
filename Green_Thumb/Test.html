@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Estimation</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="css/inuit.css">
+<link rel="stylesheet" href="css/fluid-grid16-1100px.css">
+<link rel="stylesheet" href="css/eve-styles.css">
+<link rel="shortcut icon" href="icon.jpg">
+<link rel="icon" type="image/x-icon" href="./img/logo.png">
+<link rel="apple-touch-icon-precomposed" href="img/icon.jpg">
+<script src="js/jquery164min.js"></script>
+<script src="./js/calculator.js"></script>
+</head>
+<body>
+	<div class="wrapper"> <a href="index.html" id="logo"><img src="img/logo.png" alt=" Green Thumb Logo">
+  <h1 class="accessibility">Green Thumb Landscaping got its roots in one of the greenest, most picturesque landscapes in the world</h1>
+</a>
+<div class="social"> <a target="_blank" href="https://www.facebook.com/"><img src="img/facebook.png" width="20" height="20" alt="Facebook Logo"></a> <a target="_blank" href="https://www.twitter.com/"><img src="img/twitter.png" width="20" height="20" alt="Twitter Logo"></a> <a target="_blank" href="https://www.linkedin.com/"><img src="img/linkedin.png" width="20" height="20" alt="LinkedIn Logo"></a> </div>
+<ul id="nav" class="main">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Services.html">Services</a></li>
+    <li><a href="Test.html" class="active">Estimate</a></li>
+    <li><a href="Testimonial.html">Testimonial</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a href="contact.html" >Contact</a></li>
+  </ul>
+</div>
+<div class="clear"></div>
+
+<div class="wrapper">
+  <div class="grids">
+    <div class="grid-16 grid intro grey">
+      <p style="text-align: center;">Affordable, Budget-friendly, Low-cost, Economical, Discounted, Reasonable.</p>
+    </div>
+  </div>
+</div>
+	
+<div class="wrapper">
+  <div class="grids">
+    
+    <div class=" grid">
+      <h1>Calculate Estimation of Costs</h1>
+	<form>
+		<p style="font-weight: bolder;">Select the services you need:</p>
+
+		<label for="treatmentFertilization"><span style="font-weight: bold;color: #65BB00 ;">Landscape Maintenance</span>  (pruning / weed removal) - $10/hr:</label>
+        <input type="number" id="landscapeMaintenance" name="services"  min="0" max="100">
+		<label for="">Hour/s</label>
+		<br><br>
+
+		<label for="treatmentFertilization"><span style="font-weight: bold;color: #65BB00 ;">Treatment & fertilization</span> - $0.003 / Square Foot:</label>
+        <input type="number" id="treatmentFertilization" name="services"  min="0" max="1000" value="0">
+		<label for="">Square Foot/s</label>
+		<br><br>
+
+		<label for="lawnThatching"><span style="font-weight: bold;color: #65BB00 ;">Lawn Thatching / clean up</span> - $0.004 / Square Foot:</label>
+		<input type="number" id="lawnThatching" name="services"  min="0" max="1000" value="0">
+		<label for=""> Square Foot/s</label>
+		<br><br>
+
+		<label for="grassCutting"><span style="font-weight: bold;color: #65BB00 ;">Grass cutting</span> - $0.004 / Square Foot:</label>
+		<input type="number" id="grassCutting" name="services"  min="0" max="1000" value="0">
+		<label for="">Square Foot/s</label>
+		<br><br>
+
+		<label for="mulching"><span style="font-weight: bold;color: #65BB00 ;">Mulching</span> - $0.001 / Square Foot:</label>
+		<input type="number" id="mulching" name="services"  min="0" max="1000" value="0">
+		<label for="">Square Foot/s</label>
+		<br><br>
+
+		<label for="seeding"><span style="font-weight: bold;color: #65BB00 ;">Seeding</span> - $0.007 / Square Foot:</label>
+		<input type="number" id="seeding" name="services"  min="0" max="1000" value="0">
+		<label for="">Square Foot/s</label>
+		<br><br>
+
+		<label for="aeration"><span style="font-weight: bold;color: #65BB00 ;">Aeration</span> - $0.003 / Square Foot:</label>
+		<input type="number" id="aeration" name="services"  min="0" max="1000" value="0">
+		<label for="">Square Foot/s</label>
+		<br><br>
+
+		<label for="seeding"><span style="font-weight: bold;color: #65BB00 ;">Tree-health inspections</span> - $5 / Tree:</label>
+		<input type="number" id="treeHealthInspections" name="services"  min="0" max="1000" value="0">
+		<label for="">Tree/s</label>
+		<br><br>
+
+		<label for="treeTrimming"><span style="font-weight: bold;color: #65BB00 ;">Tree trimming</span> - $40 / Tree:</label>
+		<input type="number" id="treeTrimming" name="services" min="0" max="1000" value="0">
+		<label for="">Tree/s</label>
+		<br><br>
+
+		<label for="treeTrimming"><span style="font-weight: bold;color: #65BB00 ;">Shrub pruning</span> - $10/hr:</label>
+		<input type="number" id="shrubPruning" name="services" min="0" max="1000" value="0">
+		<label for="">Hour/s</label>
+		<br><br>
+		
+		<label for="treeTrimming"><span style="font-weight: bold;color: #65BB00 ;">Weed management</span> - $10/hr:</label>
+		<input type="number" id="weedManagement" name="services" min="0" max="1000" value="0">
+		<label for="">Hour/s</label>
+		<br><br>
+
+		<label for="treeRemoval"><span style="font-weight: bold;color: #65BB00 ;">Tree removal</span> - $80 / Tree:</label>
+		<input type="number" id="treeRemoval" name="services" min="0" max="1000" value="0">
+		<label for="">Tree/s</label>
+		<br><br>
+
+		<button class="button_calc"  type="button" onclick="calculateCost()">Calculate Cost</button>
+	</form>
+	<br>
+	<h2><p >Estimated cost: <span id="cost">$0.00</span></p></h2>
+	<p>!!!The given price is <span style="color: brown; font-weight: bolder;">Only an ESTIMATION</span> and maybe changed depend on circuimstances!!!</p>
+      <hr>
+      <p style="font-weight: bolder;">For contacting Us <a href="contact.html">click here</a>!</p>
+    </div>
+  </div>
+  
+</div>
+ 
+<div class="wrapper">
+    <div id="footer">
+      <div class="grids">
+        <div class="grid-5 grid text-center">
+            <p>&copy; 2023 by <a  href="index.html">Green Thumb</a></p>
+        </div>
+        <div class="grid-6 grid text-center">
+          <p>Mehdi Shokrani Kooshki</p>
+        </div>
+        <div class="grid-5 grid text-center">
+          <p>Contact Us <a href="contact.html">here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
